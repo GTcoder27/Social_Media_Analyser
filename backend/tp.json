@@ -1,0 +1,413 @@
+[
+    {
+        "results": {
+            "message": {
+                "timestamp": "2025-01-07T02:04:10",
+                "sender": "Machine",
+                "sender_name": "AI",
+                "session_id": "b9e142b6-2031-40ac-a12c-f22fd3680bf0",
+                "text": "Based on the analysis of reels posts, here are the average engagement metrics:\n\n- Average Likes: 678\n- Average Comments: 190\n- Average Shares: 95\n\nReels posts are performing well in terms of engagement, with an average of 678 likes, 190 comments, and 95 shares per post. Users are actively engaging with reels content, indicating that reels are an effective post type for generating interaction and reach. Consider leveraging reels in your social media strategy to enhance engagement and connect with your audience effectively.",
+                "files": [],
+                "error": false,
+                "edit": false,
+                "properties": {
+                    "text_color": "",
+                    "background_color": "",
+                    "edited": false,
+                    "source": {
+                        "id": "Agent-ocJVl",
+                        "display_name": "Agent",
+                        "source": "gpt-3.5-turbo-0125"
+                    },
+                    "icon": "bot",
+                    "allow_markdown": false,
+                    "state": "complete",
+                    "targets": []
+                },
+                "category": "message",
+                "content_blocks": [
+                    {
+                        "title": "Agent Steps",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "duration": 42,
+                                "header": {
+                                    "title": "Input",
+                                    "icon": "MessageSquare"
+                                },
+                                "text": "*AI: **TypeError\n - **Details: expected str, got NoneType\n  \nAI: **ValueError\n - **Details: Cannot parse the supplied API endpoint (). The endpoint must be in the following form: \"https://<db uuid, 8-4-4-4-12 hex format>-<db region>.apps.astra.datastax.com\".\n  \nAI: **ValueError\n - **Details: Invalid tool name 'Social Media Analysis': must only contain letters, numbers, underscores, dashes, and cannot contain spaces.\n  \nAI: **ValueError\n - **Details: Invalid tool name 'Social Media Analysis': must only contain letters, numbers, underscores, dashes, and cannot contain spaces.\n  \nAI: **RateLimitError\n - **You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n  \nHUMAN*: reels"
+                            },
+                            {
+                                "type": "tool_use",
+                                "duration": 138,
+                                "header": {
+                                    "title": "Executed *social_media_analysis*",
+                                    "icon": "Hammer"
+                                },
+                                "name": "social_media_analysis",
+                                "tool_input": {
+                                    "post_type": "reels"
+                                },
+                                "output": [
+                                    {
+                                        "text_key": "text",
+                                        "data": {
+                                            "_id": "8",
+                                            "post_id": "108",
+                                            "user_id": "user_008",
+                                            "username": "vishal_patil",
+                                            "post_type": "reels",
+                                            "likes": 620,
+                                            "comments": 210,
+                                            "shares": 110,
+                                            "reach": 9500,
+                                            "timestamp": "2025-01-02T10:15:00Z",
+                                            "content_length": 100,
+                                            "hashtags": [
+                                                "#thane",
+                                                "#streetfood"
+                                            ],
+                                            "media_type": "video",
+                                            "location": "Kapurbawdi, Thane, Maharashtra, India",
+                                            "device": "OnePlus Nord 2",
+                                            "content": "Thane's best vada pav? Find out here! 🌭🔥"
+                                        },
+                                        "default_value": ""
+                                    },
+                                    {
+                                        "text_key": "text",
+                                        "data": {
+                                            "_id": "11",
+                                            "post_id": "111",
+                                            "user_id": "user_011",
+                                            "username": "rohit_deshmukh",
+                                            "post_type": "reels",
+                                            "likes": 780,
+                                            "comments": 250,
+                                            "shares": 130,
+                                            "reach": 11000,
+                                            "timestamp": "2025-01-02T14:00:00Z",
+                                            "content_length": 110,
+                                            "hashtags": [
+                                                "#thane",
+                                                "#travel"
+                                            ],
+                                            "media_type": "video",
+                                            "location": "Ghodbunder Road, Thane, Maharashtra, India",
+                                            "device": "iPhone 11",
+                                            "content": "Exploring Yeoor Hills 🚴‍♂🌳"
+                                        },
+                                        "default_value": ""
+                                    },
+                                    {
+                                        "text_key": "text",
+                                        "data": {
+                                            "_id": "1",
+                                            "post_id": "101",
+                                            "user_id": "user_001",
+                                            "username": "priya_kolte",
+                                            "post_type": "reels",
+                                            "likes": 750,
+                                            "comments": 180,
+                                            "shares": 90,
+                                            "reach": 9000,
+                                            "timestamp": "2025-01-01T10:30:00Z",
+                                            "content_length": 120,
+                                            "hashtags": [
+                                                "#foodie",
+                                                "#thane"
+                                            ],
+                                            "media_type": "video",
+                                            "location": "Thane, Maharashtra, India",
+                                            "device": "iPhone 14",
+                                            "content": "Discover the best street food in Thane! 😋🌯"
+                                        },
+                                        "default_value": ""
+                                    },
+                                    {
+                                        "text_key": "text",
+                                        "data": {
+                                            "_id": "13",
+                                            "post_id": "113",
+                                            "user_id": "user_013",
+                                            "username": "akash_divekar",
+                                            "post_type": "reels",
+                                            "likes": 690,
+                                            "comments": 180,
+                                            "shares": 85,
+                                            "reach": 8000,
+                                            "timestamp": "2025-01-02T16:45:00Z",
+                                            "content_length": 130,
+                                            "hashtags": [
+                                                "#thane",
+                                                "#trekking"
+                                            ],
+                                            "media_type": "video",
+                                            "location": "Kalyan, Thane, Maharashtra, India",
+                                            "device": "Samsung Galaxy S21",
+                                            "content": "Trekking adventure at Malshej Ghat 🏞🚶‍♂"
+                                        },
+                                        "default_value": ""
+                                    },
+                                    {
+                                        "text_key": "text",
+                                        "data": {
+                                            "_id": "5",
+                                            "post_id": "105",
+                                            "user_id": "user_005",
+                                            "username": "anil_kadam",
+                                            "post_type": "reels",
+                                            "likes": 550,
+                                            "comments": 130,
+                                            "shares": 60,
+                                            "reach": 7500,
+                                            "timestamp": "2025-01-01T18:00:00Z",
+                                            "content_length": 150,
+                                            "hashtags": [
+                                                "#thane",
+                                                "#nature"
+                                            ],
+                                            "media_type": "video",
+                                            "location": "Ghodbunder Road, Thane, Maharashtra, India",
+                                            "device": "iPhone 12",
+                                            "content": "Sunset at Yeoor Hills 🌅 #NatureLover"
+                                        },
+                                        "default_value": ""
+                                    }
+                                ],
+                                "error": null
+                            },
+                            {
+                                "type": "text",
+                                "duration": 1713,
+                                "header": {
+                                    "title": "Output",
+                                    "icon": "MessageSquare"
+                                },
+                                "text": "Based on the analysis of reels posts, here are the average engagement metrics:\n\n- Average Likes: 678\n- Average Comments: 190\n- Average Shares: 95\n\nReels posts are performing well in terms of engagement, with an average of 678 likes, 190 comments, and 95 shares per post. Users are actively engaging with reels content, indicating that reels are an effective post type for generating interaction and reach. Consider leveraging reels in your social media strategy to enhance engagement and connect with your audience effectively."
+                            }
+                        ],
+                        "allow_markdown": true,
+                        "media_url": null
+                    }
+                ],
+                "id": "74365b4d-e2c5-435c-9fd1-e421eac6374f",
+                "flow_id": "b9e142b6-2031-40ac-a12c-f22fd3680bf0"
+            }
+        },
+        "artifacts": {
+            "message": "Based on the analysis of reels posts, here are the average engagement metrics:\n\n- Average Likes: 678\n\n- Average Comments: 190\n\n- Average Shares: 95\n\nReels posts are performing well in terms of engagement, with an average of 678 likes, 190 comments, and 95 shares per post. Users are actively engaging with reels content, indicating that reels are an effective post type for generating interaction and reach. Consider leveraging reels in your social media strategy to enhance engagement and connect with your audience effectively.",
+            "sender": "Machine",
+            "sender_name": "AI",
+            "files": [],
+            "type": "object"
+        },
+        "outputs": {
+            "message": {
+                "message": {
+                    "timestamp": "2025-01-07 02:04:10 ",
+                    "sender": "Machine",
+                    "sender_name": "AI",
+                    "session_id": "b9e142b6-2031-40ac-a12c-f22fd3680bf0",
+                    "text": "Based on the analysis of reels posts, here are the average engagement metrics:\n\n- Average Likes: 678\n- Average Comments: 190\n- Average Shares: 95\n\nReels posts are performing well in terms of engagement, with an average of 678 likes, 190 comments, and 95 shares per post. Users are actively engaging with reels content, indicating that reels are an effective post type for generating interaction and reach. Consider leveraging reels in your social media strategy to enhance engagement and connect with your audience effectively.",
+                    "files": [],
+                    "error": false,
+                    "edit": false,
+                    "properties": {
+                        "text_color": "",
+                        "background_color": "",
+                        "edited": false,
+                        "source": {
+                            "id": "Agent-ocJVl",
+                            "display_name": "Agent",
+                            "source": "gpt-3.5-turbo-0125"
+                        },
+                        "icon": "bot",
+                        "allow_markdown": false,
+                        "state": "complete",
+                        "targets": []
+                    },
+                    "category": "message",
+                    "content_blocks": [
+                        {
+                            "title": "Agent Steps",
+                            "contents": [
+                                {
+                                    "type": "text",
+                                    "duration": 42,
+                                    "header": {
+                                        "title": "Input",
+                                        "icon": "MessageSquare"
+                                    },
+                                    "text": "*AI: **TypeError\n - **Details: expected str, got NoneType\n  \nAI: **ValueError\n - **Details: Cannot parse the supplied API endpoint (). The endpoint must be in the following form: \"https://<db uuid, 8-4-4-4-12 hex format>-<db region>.apps.astra.datastax.com\".\n  \nAI: **ValueError\n - **Details: Invalid tool name 'Social Media Analysis': must only contain letters, numbers, underscores, dashes, and cannot contain spaces.\n  \nAI: **ValueError\n - **Details: Invalid tool name 'Social Media Analysis': must only contain letters, numbers, underscores, dashes, and cannot contain spaces.\n  \nAI: **RateLimitError\n - **You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\n  \nHUMAN*: reels"
+                                },
+                                {
+                                    "type": "tool_use",
+                                    "duration": 138,
+                                    "header": {
+                                        "title": "Executed *social_media_analysis*",
+                                        "icon": "Hammer"
+                                    },
+                                    "name": "social_media_analysis",
+                                    "tool_input": {
+                                        "post_type": "reels"
+                                    },
+                                    "output": [
+                                        {
+                                            "text_key": "text",
+                                            "data": {
+                                                "_id": "8",
+                                                "post_id": "108",
+                                                "user_id": "user_008",
+                                                "username": "vishal_patil",
+                                                "post_type": "reels",
+                                                "likes": 620,
+                                                "comments": 210,
+                                                "shares": 110,
+                                                "reach": 9500,
+                                                "timestamp": "2025-01-02T10:15:00Z",
+                                                "content_length": 100,
+                                                "hashtags": [
+                                                    "#thane",
+                                                    "#streetfood"
+                                                ],
+                                                "media_type": "video",
+                                                "location": "Kapurbawdi, Thane, Maharashtra, India",
+                                                "device": "OnePlus Nord 2",
+                                                "content": "Thane's best vada pav? Find out here! 🌭🔥"
+                                            },
+                                            "default_value": ""
+                                        },
+                                        {
+                                            "text_key": "text",
+                                            "data": {
+                                                "_id": "11",
+                                                "post_id": "111",
+                                                "user_id": "user_011",
+                                                "username": "rohit_deshmukh",
+                                                "post_type": "reels",
+                                                "likes": 780,
+                                                "comments": 250,
+                                                "shares": 130,
+                                                "reach": 11000,
+                                                "timestamp": "2025-01-02T14:00:00Z",
+                                                "content_length": 110,
+                                                "hashtags": [
+                                                    "#thane",
+                                                    "#travel"
+                                                ],
+                                                "media_type": "video",
+                                                "location": "Ghodbunder Road, Thane, Maharashtra, India",
+                                                "device": "iPhone 11",
+                                                "content": "Exploring Yeoor Hills 🚴‍♂🌳"
+                                            },
+                                            "default_value": ""
+                                        },
+                                        {
+                                            "text_key": "text",
+                                            "data": {
+                                                "_id": "1",
+                                                "post_id": "101",
+                                                "user_id": "user_001",
+                                                "username": "priya_kolte",
+                                                "post_type": "reels",
+                                                "likes": 750,
+                                                "comments": 180,
+                                                "shares": 90,
+                                                "reach": 9000,
+                                                "timestamp": "2025-01-01T10:30:00Z",
+                                                "content_length": 120,
+                                                "hashtags": [
+                                                    "#foodie",
+                                                    "#thane"
+                                                ],
+                                                "media_type": "video",
+                                                "location": "Thane, Maharashtra, India",
+                                                "device": "iPhone 14",
+                                                "content": "Discover the best street food in Thane! 😋🌯"
+                                            },
+                                            "default_value": ""
+                                        },
+                                        {
+                                            "text_key": "text",
+                                            "data": {
+                                                "_id": "13",
+                                                "post_id": "113",
+                                                "user_id": "user_013",
+                                                "username": "akash_divekar",
+                                                "post_type": "reels",
+                                                "likes": 690,
+                                                "comments": 180,
+                                                "shares": 85,
+                                                "reach": 8000,
+                                                "timestamp": "2025-01-02T16:45:00Z",
+                                                "content_length": 130,
+                                                "hashtags": [
+                                                    "#thane",
+                                                    "#trekking"
+                                                ],
+                                                "media_type": "video",
+                                                "location": "Kalyan, Thane, Maharashtra, India",
+                                                "device": "Samsung Galaxy S21",
+                                                "content": "Trekking adventure at Malshej Ghat 🏞🚶‍♂"
+                                            },
+                                            "default_value": ""
+                                        },
+                                        {
+                                            "text_key": "text",
+                                            "data": {
+                                                "_id": "5",
+                                                "post_id": "105",
+                                                "user_id": "user_005",
+                                                "username": "anil_kadam",
+                                                "post_type": "reels",
+                                                "likes": 550,
+                                                "comments": 130,
+                                                "shares": 60,
+                                                "reach": 7500,
+                                                "timestamp": "2025-01-01T18:00:00Z",
+                                                "content_length": 150,
+                                                "hashtags": [
+                                                    "#thane",
+                                                    "#nature"
+                                                ],
+                                                "media_type": "video",
+                                                "location": "Ghodbunder Road, Thane, Maharashtra, India",
+                                                "device": "iPhone 12",
+                                                "content": "Sunset at Yeoor Hills 🌅 #NatureLover"
+                                            },
+                                            "default_value": ""
+                                        }
+                                    ],
+                                    "error": null
+                                },
+                                {
+                                    "type": "text",
+                                    "duration": 1713,
+                                    "header": {
+                                        "title": "Output",
+                                        "icon": "MessageSquare"
+                                    },
+                                    "text": "Based on the analysis of reels posts, here are the average engagement metrics:\n\n- Average Likes: 678\n- Average Comments: 190\n- Average Shares: 95\n\nReels posts are performing well in terms of engagement, with an average of 678 likes, 190 comments, and 95 shares per post. Users are actively engaging with reels content, indicating that reels are an effective post type for generating interaction and reach. Consider leveraging reels in your social media strategy to enhance engagement and connect with your audience effectively."
+                                }
+                            ],
+                            "allow_markdown": true,
+                            "media_url": null
+                        }
+                    ],
+                    "id": "74365b4d-e2c5-435c-9fd1-e421eac6374f",
+                    "flow_id": "b9e142b6-2031-40ac-a12c-f22fd3680bf0"
+                },
+                "type": "object"
+            }
+        },
+        "logs": {
+            "message": []
+        },
+        "messages": [],
+        "component_display_name": "Chat Output",
+        "component_id": "ChatOutput-cO64w",
+        "used_frozen_result": false
+    }
+]
